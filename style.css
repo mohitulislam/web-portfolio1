@@ -12,7 +12,7 @@ p{
 }
 
 /* ----Start website First Section------- */
-.nameHighlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -60,3 +60,37 @@ h2{
     background-position: right;
 }
 
+/* ---------End of section two------ */
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+
+.experience-area{
+
+    background-image:url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+#main-stuck{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, lightsalmon, tomato );
+    border-image-slice: 1;
+}
+
+#full-stuck{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, blue, cyan );
+    border-image-slice: 1;
+}
+
+footer p{
+text-align: center;
+color: gray;
+font-size: 15px;
+}
